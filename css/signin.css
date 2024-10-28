@@ -1,0 +1,19 @@
+@charset "utf-8";
+@import url("style.css");
+
+.signin {margin-top: 10rem; padding: 2rem 0 15rem; background: url('../images/login_bg2.jpg') no-repeat; background-position: center; background-size: cover;}
+.signin .heading {font-size: 3rem; font-weight: 700; margin-bottom: 4rem;}
+.signin .signin_card {max-width: 80rem; background: var(--white); /* padding: 5rem; */ border-radius: 1rem; box-shadow: .5rem .5rem 1rem rgba(0,0,0,.3); margin: 0 auto;}
+.signin .signin_card h2 {font-size: 2rem; text-align: center; padding: 3rem 0; border-bottom: 1px solid var(--light-color);}
+.signin .signin_card h2 span {color: var(--main-color);}
+
+.signin .signin_card form {padding: 3rem;}
+.signin .signin_card form input {width: 100%; margin-bottom: 1.5rem; border: 1px solid var(--gradient-bg); border-radius: .5rem; padding: 2rem; box-sizing: border-box; outline: none; font-size: 1.6rem;}
+.signin .signin_card form [type="submit"] {background: var(--main-color); border: none; color: var(--white); font-size: 2rem; cursor: pointer;}
+.signin .signin_card form p {font-size: 1.2rem; color: var(--main-color);}
+
+.signin .signin_card .action {display: flex; border-top: 1px solid var(--gradient-bg);}
+.signin .signin_card .action a {flex-grow: 1; flex-basis: 0; text-align: center; padding: 3rem; color: var(--black); font-size: 1.4rem; border-right: 1px solid var(--gradient-bg);}
+/* felx-grow: 아이템 증가너비. flex-basis: 아이템 기본너비 */
+.signin .signin_card .action a:last-child {border-right: 0;}
+.signin .signin_card .action a:hover {text-decoration: underline;}
